@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <select id="level">
+        <option value="beginner">Beginner (81 tiles, 10 mines)</option>
+        <option value="intermediate">Intermediate (256 tiles, 40 mines)</option>
+        <option value="expert">Expert (480 tiles, 99 mines)</option>
+    </select>
+    <button>Start Game</button>
+    <div id="timer">Time: 0s</div>
+    <div id="counter">Revealed Tiles: 0</div>
+    <div id="board"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
